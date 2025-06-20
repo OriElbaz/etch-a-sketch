@@ -1,0 +1,64 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 16px;
+}
+
+.button-ele{
+    height: 30px;
+
+}
+
+.input-ele{
+    width: 50px;
+    height: 30px;
+    padding: 0 10px 0 10px;
+
+}
+
+.grid-container{
+    display: flex;
+    box-sizing: border-box;
+    width: 600px;
+    height: 600px;
+    border: solid 4px black;
+    flex: 1 1 auto;
+}
+
+.footer-container {
+    display: flex;
+    box-sizing: border-box;
+    border: solid 1px black;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CLASS FOR INDIVIDUAL GRID UNITS */
+.grid-unit{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex: 1 1 0;
+
+}
+
+.grid-unit2 {
+    box-sizing: border-box;
+    border: solid 1px black;
+    flex: 1 1 0;
+}
